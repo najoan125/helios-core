@@ -246,7 +246,7 @@ export class HeliosModule {
                 return join(commonDir, 'mods', 'fabric', relativePath)
             case Type.File:
             default:
-                return join(instanceDir, this.serverId, relativePath) 
+                return join(instanceDir, relativePath) 
         }
         
     }
